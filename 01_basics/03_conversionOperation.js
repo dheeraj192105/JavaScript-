@@ -24,5 +24,40 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 2000
 
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+//******************************** whar are Operations ****************************************//
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "hello"
+let str2 = " ronit"
+
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("50" + 5);
+// console.log(50 + "5");
+// console.log("50" + 5 + 5);
+// console.log(5 + 50 + "50");
+
+
+// console.log(+ true);
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 4
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter);
